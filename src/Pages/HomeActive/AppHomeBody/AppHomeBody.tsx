@@ -9,6 +9,10 @@ import electricity from "./../../../assets/electricity.svg";
 import bet from "./../../../assets/bet.svg";
 import data from "./../../../assets/data.svg";
 import airtime from "./../../../assets/airtime.svg";
+import easyloan from "./../../../assets/easyloan.svg";
+import contribution from "./../../../assets/startcontri.svg";
+import arrowicon from "./../../../assets/arrowicon.svg";
+import investmoney from "./../../../assets/investmoney.svg";
 
 const AppHomeBody = () => {
     return (
@@ -65,6 +69,38 @@ const AppHomeBody = () => {
                     <div>
                         <img src={bet} alt="" />
                         <p>Bet account</p>
+                    </div>
+                </div>
+                <div className="bonuses">
+                    <div className="bonusItem">
+                        <div className="invest">
+                            <img src={investmoney} alt="" />
+                            <div>
+                                <h4>Invest your money</h4>
+                                <p>Earn interest on your invested money</p>
+                            </div>
+                        </div>
+                        <img src={arrowicon} alt="" />
+                    </div>
+                    <div className="bonusItem">
+                        <div className="invest">
+                            <img src={contribution} alt="" />
+                            <div>
+                                <h4>Start a contribution</h4>
+                                <p>Create and manage contribution group</p>
+                            </div>
+                        </div>
+                        <img src={arrowicon} alt="" />
+                    </div>
+                    <div className="bonusItem">
+                        <div className="invest">
+                            <img src={easyloan} alt="" />
+                            <div>
+                                <h4>Easy loan</h4>
+                                <p>Take loan with ease without collateral</p>
+                            </div>
+                        </div>
+                        <img src={arrowicon} alt="" />
                     </div>
                 </div>
             </div>
