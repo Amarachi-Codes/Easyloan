@@ -1,0 +1,32 @@
+.footerWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    padding: 4rem 0;
+}
+.footerWrapper div h3{
+    padding-bottom: 1rem;
+}
+.footerWrapper div p{
+    line-height: 2.5rem;
+}
+.footerWrapper div div img{
+    line-height: 2.5rem;
+}
+.footerWrapper div img{
+    line-height: 2.5rem;
+}
+.copyright{
+    padding: 0 16rem 8rem 16rem;
+    text-align: center;
+}
+.underline{
+    border-top: 1px solid #000;
+    margin:0 12rem 2rem 12rem;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 0;
+}

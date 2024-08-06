@@ -1,0 +1,19 @@
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 6rem ;
+}
+.aboutContainer .aboutContent{
+    width: 40%;
+}
+.aboutContainer .aboutContent h2{
+    padding: 1.5rem 0;
+}
+.aboutContainer .aboutContent p{
+    line-height: 2rem;
+}
+.aboutContainer .aboutImage img{
+    height: 550px;
+    transform: rotate(-6deg);
+}

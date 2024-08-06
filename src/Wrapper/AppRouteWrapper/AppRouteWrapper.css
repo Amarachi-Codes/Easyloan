@@ -1,0 +1,143 @@
+.app__container{
+    display: flex;
+    
+  }
+  .app__container .sidebarWrapper{
+    width: 20vw;
+    background-color: #FCFCFC;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    border-right: 1px solid #727272;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .app__container .sidebarWrapper .logoWrapper{
+    margin-top: 40px;
+    margin-left: 44px;
+    display: flex;
+    gap: 10px;
+    font-size: 24px;
+    color: #000;
+  }
+  .app__container .sidebarWrapper .sidebar{
+    margin-left: 44px;
+  }
+ 
+  
+ .app__container .sidebarWrapper .sidebar ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px; 
+    padding: 6px 0;
+    margin: 16px 0;
+    list-style: none;
+    color: #5E5E5E;
+    
+  }
+  .app__container .sidebarWrapper .sidebar ul li a{
+    text-decoration: none;
+    color: #5E5E5E;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+
+  .app__container .sidebarWrapper .sidebar ul li a:focus{
+    color: #000;
+  }
+ 
+ 
+  .app__container .app__content{
+    width: 80vw;
+  }
+
+
+  @media screen and (max-width:1024px) {
+
+    .app__container .sidebarWrapper{
+      width: 24vw;
+    }
+  }
+  
+  @media screen and (max-width:890px) {
+
+    .app__container .sidebarWrapper .logoWrapper{
+      margin-left: 25px;
+    }
+    .app__container .sidebarWrapper .sidebar{
+      margin-left: 25px;
+    }
+
+    .app__container .sidebarWrapper{
+      width: 21vw;
+    }
+  }
+
+  @media screen and (max-width:840px) {
+
+    .app__container .sidebarWrapper .logoWrapper{
+      margin-left: 20px;
+    }
+    .app__container .sidebarWrapper .sidebar{
+      margin-left: 20px;
+    }
+
+    .app__container .sidebarWrapper{
+      width: 21vw;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .app__container{
+      flex-direction: column-reverse;
+    }
+
+    .app__container .app__content{
+      width: 100vw;
+    }
+
+    .app__container .sidebarWrapper{
+      border-right: none;
+      display: flex;
+      flex-direction: row;
+      position: sticky;
+      bottom: 0;
+      align-items: center;
+      width: 100vw;
+      height: 76px;
+      z-index: 1000;
+    }
+    
+
+    .app__container .sidebarWrapper .logoWrapper{
+      display: none;      
+    }
+
+    .app__container .sidebarWrapper .sidebar{
+      width: 100%;
+    }
+
+    .app__container .sidebarWrapper .sidebar ul{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .app__container .sidebarWrapper .sidebar ul li a{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 21px;
+    }
+
+    .app__container .sidebarWrapper .sidebar ul li:last-child{
+      display: none;
+    }
+  }

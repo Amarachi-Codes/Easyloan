@@ -1,0 +1,40 @@
+.contactWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 4rem 16rem ;
+}
+.contactWrapper .howItWorks{
+    width: 50%;
+}
+.contactWrapper .howItWorks h2{
+    padding: 1.5rem 0;
+}
+.contactWrapper .howItWorks ul li{
+    line-height: 3rem;
+}
+.contactWrapper .howItWorks ul li span{
+    font-weight: bold;
+}
+.contactWrapper .howItWorks p{
+    line-height: 2rem;
+}
+.contactWrapper .howItWorks form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+}
+.contactWrapper .howItWorks form input{
+    padding: 8px;
+}
+.contactWrapper .howItWorks form textarea{
+    padding: 8px;
+}
+.contactWrapper .howItWorks form button{
+    padding: 10px;
+    background-color: #2C14DD;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #2C14DD;
+}

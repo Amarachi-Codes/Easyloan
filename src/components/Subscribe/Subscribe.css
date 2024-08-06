@@ -1,0 +1,31 @@
+.subscribeWrapper{
+    text-align: center;
+    background-color: #2C14DD;
+    color: #fff;
+    padding: 3rem 0;
+}
+.subscribeWrapper p{
+    padding: 1rem 0;
+}
+.subscribeWrapper div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+}
+.subscribeWrapper div input{
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+.subscribeWrapper div button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2C14DD;
+    border: 1px solid #2C14DD;
+    font-weight: bold;
+}
