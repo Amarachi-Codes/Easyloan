@@ -11,6 +11,7 @@ import Reset from './Pages/Reset/Reset'
 import Verification from './Pages/Verification/Verification'
 import AppRouteWrapper from './Wrapper/AppRouteWrapper/AppRouteWrapper'
 import AppHomePage from './Pages/HomeActive/AppHomePage/AppHomePage'
+import ProfilePage from './Pages/Profile/ProfilePage/ProfilePage'
 
 function App() {
 
@@ -30,11 +31,13 @@ function App() {
 
         <Route path='/app' element={<AppRouteWrapper />}>
         <Route index element={<AppHomePage />} />
-
-
+        <Route path='/profile' element={<ProfilePage />} />
 
           
         </Route>
+      
+        
+        
       </Routes >
 
 
