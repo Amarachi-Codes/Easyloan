@@ -1,0 +1,14 @@
+.profileTop{
+    background-color: #442CF5;
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+     padding: 3rem 2rem; 
+     gap: 5%; 
+}
+.profileTop div{
+    color: #fff;
+    font-size: 20px;
+    
+
+}

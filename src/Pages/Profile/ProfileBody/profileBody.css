@@ -1,0 +1,9 @@
+.profileBody {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    border-right: 1px solid #727272;
+    padding: 3rem;
+    background-color: whitesmoke;
+    gap:2rem
+}

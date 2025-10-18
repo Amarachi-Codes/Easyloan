@@ -31,7 +31,7 @@ function App() {
 
         <Route path='/app' element={<AppRouteWrapper />}>
         <Route index element={<AppHomePage />} />
-        <Route path='/profile' element={<ProfilePage />} />
+        <Route path='/app/profile' element={<ProfilePage />} />
 
           
         </Route>
